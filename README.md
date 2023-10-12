@@ -1,6 +1,7 @@
 # Simple UI for the ElasticSearch Agent
 
-Provides a simple UI for the ElasticSearch LangChain Agent.
+Provides a simple UI for the ElasticSearch LangChain Agent which you can find in this project:
+https://github.com/onepointconsulting/elasticsearch-agent
 
 ## Setup
 
@@ -20,6 +21,13 @@ pip install poetry
 poetry install
 poetry add --editable ..\elasticsearch_playground\dist\elasticsearch_agent-0.1.5-py3-none-any.whl
 ```
+
+Please note that this project relies on this project:
+
+https://github.com/onepointconsulting/elasticsearch-agent
+
+In order to build the `elasticsearch_agent-0.1.5-py3-none-any.whl` you will need to build it first using the instructions in 
+elasticsearch_agent-0.1.5-py3-none-any.whl.
 
 ## Execution
 
