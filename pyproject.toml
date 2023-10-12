@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "elasticsearch-chainlit"
+version = "0.1.0"
+description = "Provides a simple UI for the ElasticSearch LangChain Agent."
+authors = ["Gil Fernandes <gil.fernandes@onepointltd.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+chainlit = "^0.7.2"
+elasticsearch-agent = {path = "../elasticsearch_playground/dist/elasticsearch_agent-0.1.5-py3-none-any.whl", develop = true}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
