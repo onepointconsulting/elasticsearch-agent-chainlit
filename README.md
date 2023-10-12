@@ -27,7 +27,7 @@ Please note that this project relies on this project:
 https://github.com/onepointconsulting/elasticsearch-agent
 
 In order to build the `elasticsearch_agent-0.1.5-py3-none-any.whl` you will need to build it first using the instructions in 
-elasticsearch_agent-0.1.5-py3-none-any.whl.
+https://github.com/onepointconsulting/elasticsearch-agent.
 
 ## Execution
 
@@ -60,4 +60,5 @@ LANGCHAIN_VERBOSE=true
 AGGS_LIMIT=200
 TOKEN_LIMIT=6000
 MAX_SEARCH_RETRIES = 100
+QUESTIONS_TO_KEEP=5
 ```

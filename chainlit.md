@@ -11,6 +11,8 @@ Here are some questions:
 - Which was the CO2 production of India from 2013 to 2021?
     - So which was the gross national income per capita of this country in this period?
 - Which was the trend of the gross national income per capita and the CO2 production of Austria and the United Kingdom between 2015 and 2021? Is there a relationship between gnipc and CO2 production in these countries?
+- Which was the gross national income per capita of Portugal in the period of 2013 to 2021?
+- Which are the regions mentioned for which you have gross national income per capita data?
 
 ## Useful Links 🔗
 

@@ -8,7 +8,7 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.11"
 chainlit = "^0.7.2"
-elasticsearch-agent = {path = "../elasticsearch_playground/dist/elasticsearch_agent-0.1.5-py3-none-any.whl", develop = true}
+elasticsearch-agent = {path = "../elasticsearch_playground/dist/elasticsearch_agent-0.1.6-py3-none-any.whl", develop = true}
 
 
 [build-system]
