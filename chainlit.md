@@ -4,6 +4,7 @@ This agent can ask an ElasticSearch instance questions in natural language.
 
 Here are some questions:
 
+- Which indices do you have and what is the information about?
 - Which are the regions mentioned for which you have CO2 production data?
 - Which is the ECA region co2 production for the year of 2021?
 - Can we have the sum of the ECA region co2 production for the year of 2021?

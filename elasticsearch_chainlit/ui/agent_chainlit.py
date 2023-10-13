@@ -15,7 +15,7 @@ async def on_chat_start():
     agent = agent_factory2()
     cl.user_session.set(KEY_AGENT, agent)
     cl.user_session.set(KEY_USER_QUESTIONS, [])
-    await cl.Message(content="Agent started").send()
+    await cl.Message(content="ElasticSearch Agent started. Please check the README section to see how the agent can be used.").send()
 
 
 @cl.on_message
