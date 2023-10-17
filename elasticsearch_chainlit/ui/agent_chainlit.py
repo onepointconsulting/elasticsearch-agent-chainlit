@@ -1,7 +1,7 @@
 from typing import List
 
 import chainlit as cl
-from elasticsearch_agent.agent.agent_factory import agent_factory2
+from elasticsearch_agent.agent.agent_factory import agent_factory
 
 from langchain.agents.agent import AgentExecutor
 from elasticsearch_chainlit.log_init import logger
@@ -12,7 +12,7 @@ KEY_USER_QUESTIONS = "user_questions"
 
 @cl.on_chat_start
 async def on_chat_start():
-    agent = agent_factory2()
+    agent = agent_factory()
     cl.user_session.set(KEY_AGENT, agent)
     cl.user_session.set(KEY_USER_QUESTIONS, [])
     await cl.Message(content="ElasticSearch Agent started. Please check the README section to see how the agent can be used.").send()

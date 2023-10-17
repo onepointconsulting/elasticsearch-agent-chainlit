@@ -478,12 +478,12 @@ requests = ["requests (>=2.4.0,<3.0.0)"]
 
 [[package]]
 name = "elasticsearch-agent"
-version = "0.1.6"
+version = "0.1.8"
 description = "Provides LangChain based tools to interact with ElasticSearch and allow the creation of ElasticSearch based agents"
 optional = false
 python-versions = ">=3.11,<4.0"
 files = [
-    {file = "elasticsearch_agent-0.1.6-py3-none-any.whl", hash = "sha256:f387f8e150c0199255239281410726d83554d6f36bc985447453d84254f085c2"},
+    {file = "elasticsearch_agent-0.1.8-py3-none-any.whl", hash = "sha256:36ef79bf028644eaf7a1fe2a56a94a3a892803061d8fcd6e71a60a4cd983864f"},
 ]
 
 [package.dependencies]
@@ -495,7 +495,7 @@ tiktoken = ">=0.5.1,<0.6.0"
 
 [package.source]
 type = "file"
-url = "../elasticsearch_playground/dist/elasticsearch_agent-0.1.6-py3-none-any.whl"
+url = "../elasticsearch_playground/dist/elasticsearch_agent-0.1.8-py3-none-any.whl"
 
 [[package]]
 name = "fastapi"
@@ -2499,4 +2499,4 @@ testing = ["big-O", "jaraco.functools", "jaraco.itertools", "more-itertools", "p
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "3bd5361c0526193d9df7fe09edc8a53ac3e71efecd36ad33a4fd2fb6d5678e0f"
+content-hash = "4ae76b65fa223885ec80b4abed9b57e6c23a7a2a8843625afb072a4c44a378e9"

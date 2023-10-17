@@ -19,7 +19,7 @@ pip install poetry
 
 ```
 poetry install
-poetry add --editable ..\elasticsearch_playground\dist\elasticsearch_agent-0.1.5-py3-none-any.whl
+poetry add --editable ..\elasticsearch_playground\dist\elasticsearch_agent-0.1.8-py3-none-any.whl
 ```
 
 Please note that this project relies on this project:
